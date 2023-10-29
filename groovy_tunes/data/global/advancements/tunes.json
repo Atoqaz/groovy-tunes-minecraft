@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "Groovy Tunes",
+    "description": "Adds custom-made melodies and tunes, that can be playing using a Music Horn.",
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "background": "minecraft:textures/block/black_concrete_powder.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:exandreal",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
