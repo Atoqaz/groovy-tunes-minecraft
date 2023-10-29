@@ -5,9 +5,15 @@ Created on Thu Oct 12 19:05:17 2023
 @author: AKris
 """
 from Tunes_calc_code import *
+from pathlib import Path
+import os
+
+DIR = Path(__file__).parent
 
 melody = 'amtet'
-location = 'C:/Users/AKris/AppData/Roaming/.minecraft/saves/TestyTown/datapacks/groovy tunes/data/tunes/functions/melody/' + melody + '.mcfunction' 
+saves_folder = "TestyTown"
+datapack_name = "groovy tunes"
+location = Path(os.getenv("APPDATA")).joinpath(f".minecraft/saves/{saves_folder}/datapacks/{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction")
 
 pling = ""
 harp = ""
