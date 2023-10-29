@@ -14,11 +14,51 @@ def convert_notes_to_code(string, instrument, tact):
     for i in range(0, 25):
         freqs.append(str(round((2 ** (i / 12.0)) / 2, 6)))
 
+    note_logic = [
+        (",", "pause,"),
+        (".", "pause."),
+        (";", "pause;"),
+        ("-", "pause-"),
+        ("&", "pause&"),
+        (" ", "section"),
+        ("#f", freqs[0]),
+        ("g#", freqs[2]),
+        ("g", freqs[1]),
+        ("a#", freqs[4]),
+        ("a", freqs[3]),
+        ("b", freqs[5]),
+        ("c#", freqs[7]),
+        ("c", freqs[6]),
+        ("d#", freqs[9]),
+        ("d", freqs[8]),
+        ("e", freqs[10]),
+        ("f#", freqs[12]),
+        ("f", freqs[11]),
+        ("G#", freqs[14]),
+        ("G", freqs[13]),
+        ("A#", freqs[16]),
+        ("A", freqs[15]),
+        ("B", freqs[17]),
+        ("C#", freqs[19]),
+        ("C", freqs[18]),
+        ("D#", freqs[21]),
+        ("D", freqs[20]),
+        ("E", freqs[22]),
+        ("F#", freqs[24]),
+        ("F", freqs[23]),
+    ]
+
     notes = []
     while True:
 
         if string == "":
             break
+
+        # for logic in note_logic:
+        #     character, note = logic
+        #     if string.startswith(character):
+        #         notes.append(note)
+        #         string = string[len(character):]
 
         if string.startswith(","):
             notes.append("pause,")

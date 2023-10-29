@@ -10,12 +10,17 @@ import os
 
 DIR = Path(__file__).parent
 
+tact = 1
+max_tact = 1
 melody = "amtet"
 saves_folder = "TestyTown"
 datapack_name = "groovy tunes"
-location = Path(os.getenv("APPDATA")).joinpath(
-    f".minecraft/saves/{saves_folder}/datapacks/{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
-)
+# location = Path(os.getenv("APPDATA")).joinpath(
+#     f".minecraft/saves/{saves_folder}/datapacks/{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
+# )
+location = DIR.joinpath(
+    f"{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
+)  # Testing
 
 pling = ""
 harp = ""
@@ -93,88 +98,32 @@ elif melody == "amtet":
     basedrum += "&&&&&&f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--"
 
 
-code = "particle note ~ ~ ~ 1 1 1 1 1 normal @s\n\n"
-tact = 1
-max_tact = 1
+code = "particle note ~ ~ ~ 1 1 1 1 1 normal @a\n\n"
 
 
-if pling:
-    convert = convert_notes_to_code(pling, "pling", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
+notes_instruments = [
+    (pling, "pling"),
+    (harp, "harp"),
+    (bell, "bell"),
+    (chime, "chime"),
+    (bit, "bit"),
+    (xylophone, "xylophone"),
+    (banjo, "banjo"),
+    (guitar, "guitar"),
+    (bass, "bass"),
+    (didgeridoo, "didgeridoo"),
+    (hat, "hat"),
+    (snare, "snare"),
+    (basedrum, "basedrum"),
+]
 
-if harp != "":
-    convert = convert_notes_to_code(harp, "harp", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if bell != "":
-    convert = convert_notes_to_code(bell, "bell", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if chime != "":
-    convert = convert_notes_to_code(chime, "chime", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if bit != "":
-    convert = convert_notes_to_code(bit, "bit", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if xylophone != "":
-    convert = convert_notes_to_code(xylophone, "xylophone", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if banjo != "":
-    convert = convert_notes_to_code(banjo, "banjo", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if guitar != "":
-    convert = convert_notes_to_code(guitar, "guitar", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if bass != "":
-    convert = convert_notes_to_code(bass, "bass", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if didgeridoo != "":
-    convert = convert_notes_to_code(didgeridoo, "didgeridoo", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if hat != "":
-    convert = convert_notes_to_code(hat, "hat", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if snare != "":
-    convert = convert_notes_to_code(snare, "snare", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
-
-if basedrum != "":
-    convert = convert_notes_to_code(basedrum, "basedrum", tact)
-    code += convert[0]
-    max_tact = max(max_tact, convert[1])
-    # tact = convert[1]
+for notes_instrument in notes_instruments:
+    notes, instrument = notes_instrument
+    if notes:
+        convert = convert_notes_to_code(notes, instrument, tact)
+        code += convert[0]
+        max_tact = max(max_tact, convert[1])
+        # tact = convert[1]
 
 
 code += "\nexecute if score @s tunes.tact matches "
@@ -183,4 +132,4 @@ code += ".. run function tunes:reset"
 
 with open(location, "w+") as text_file:
     text_file.write(code)
-
+print("done")
