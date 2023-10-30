@@ -12,12 +12,12 @@ DIR = Path(__file__).parent
 
 tact = 1
 max_tact = 1
-melody = "amtet"
+melody = "ghostbusters"
 saves_folder = "TestyTown"
 datapack_name = "groovy tunes"
 # location = Path(os.getenv("APPDATA")).joinpath(
 #     f".minecraft/saves/{saves_folder}/datapacks/{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
-# )
+# ) # Datapack
 location = DIR.joinpath(
     f"{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
 )  # Testing
@@ -98,9 +98,6 @@ elif melody == "amtet":
     basedrum += "&&&&&&f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--f#--"
 
 
-code = "particle note ~ ~ ~ 1 1 1 1 1 normal @a\n\n"
-
-
 notes_instruments = [
     (pling, "pling"),
     (harp, "harp"),
@@ -117,12 +114,14 @@ notes_instruments = [
     (basedrum, "basedrum"),
 ]
 
+code = "particle note ~ ~ ~ 1 1 1 1 1 normal @a\n\n"
+
 for notes_instrument in notes_instruments:
     notes, instrument = notes_instrument
     if notes:
-        convert = convert_notes_to_code(notes, instrument, tact)
-        code += convert[0]
-        max_tact = max(max_tact, convert[1])
+        new_code, new_tact = convert_notes_to_code(notes, instrument, tact)
+        code += new_code
+        max_tact = max(max_tact, new_tact)
         # tact = convert[1]
 
 
@@ -132,4 +131,5 @@ code += ".. run function tunes:reset"
 
 with open(location, "w+") as text_file:
     text_file.write(code)
-print("done")
+
+print(f"Created song: {melody.capitalize()}")
