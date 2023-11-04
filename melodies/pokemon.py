@@ -30,10 +30,7 @@ cow_bell = ""  # Soul sand
 # 32 tick per row
 
 # Iron block
-iron_xylophone += "&"
-iron_xylophone += "&"
-iron_xylophone += "&"
-iron_xylophone += "&"
+iron_xylophone += "&&&&"
 iron_xylophone += "-D-D-D-D+-D-"
 # 5
 iron_xylophone += "C+A-f*f-"
@@ -52,31 +49,26 @@ iron_xylophone += "&"
 iron_xylophone += "-D#-D#-D#-D#+-F-"
 iron_xylophone += "D+C-A#*A#-"
 iron_xylophone += "D+D-C+A#-D+"
+iron_xylophone += "&"
 
-bell += "&"
-bell += "&"
-bell += "&"
-bell += "&"
-bell += "&"
-# 5
-bell += "&"
-bell += "&"
-bell += "&"
-bell += "&"
-bell += "&"
-# 10
-bell += "&"
-bell += "&"
-bell += "&"
-bell += "&"
-bell += "&"
+# Packed ice
+chime += "&&&&&"
+chime += "&&&&&"
+chime += "&&&&&"
 # 15
-bell += "&"
-bell += "&"
-bell += "&"
-bell += "&"
-bell += "*-d-f-G-"
+chime += "&&&&"
+chime += "*-d-f-G-"
 # 20
+chime += "+d-d-f-G+G-"
+
+# Gold block
+bell += "&&&&&"
+bell += "&&&&&"
+bell += "&&&&&"
+bell += "&&&&&"
+# 20
+bell += "*+-G-"
+
 
 # Wool block
 guitar += "G+G+G+G+"
@@ -102,12 +94,11 @@ guitar += "d#&"
 guitar += "a#&"
 guitar += "a#+-c+-d+"
 guitar += "*-d-f-G-"
-
+# 20
+guitar += "d#-d#-d#-d#-d#-d#-d#-d#-"
 
 # Wood
-bass += "&"
-bass += "&"
-bass += "&"
+bass += "&&&"
 bass += "*-d-f-G-"
 bass += "&"
 # 5
@@ -128,6 +119,8 @@ bass += "d#&"
 bass += "a#&"
 bass += "a#+-c+-d+"
 bass += "*-d-f-G-"
+# 20
+bass += "d#+-d#+d#+-"
 
 # Diamond
 harp += "GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-"
@@ -153,10 +146,11 @@ harp += "GA#D#-GA#D#-GA#D#-GA#D#-GA#D#-GA#D#-GA#D#-GA#D#-"
 harp += "fA#D-fA#D-fA#D-fA#D-fA#D-fA#D-fA#D-fA#D-"
 harp += "fA#D-fA#D-fA#D-GCD-GCD-GCD-fAD+"
 harp += "-fGD-fGD-fGD-Adf#+Adf#+"
+# 20
+harp += "GA#D#+-GA#D#+GA#D#+-"
 
 # Sand
-snare += "&"
-snare += "&"
+snare += "&&"
 snare += "+b.b.b.b.b++"
 snare += "*-b.b.b-f#-"
 snare += "F#-F#-F#-F#-F#-F#-F#-F#-"
@@ -178,16 +172,16 @@ snare += "F#f#-F#b-F#-F#-F#-F#-F#-F#-"
 snare += "F#-F#-F#b-F#-F#-F#b-F#b-F#b.b."
 snare += "F#c#-F#-F#-F#f#-F#-F#-F#d#-F#-"
 snare += "&"
+# 20
+snare += "f#F#.F#.F#.F#.bF#.F#.F#.F#.F#.F#.F#.F#.bF#.F#.F#.F#."
 
 # Stone
-basedrum += "&"
-basedrum += "&"
+basedrum += "&&"
 basedrum += "*-d#-c#-b-"
 basedrum += "-c#-c#-b-b*"
 basedrum += "&"
 # 5
-basedrum += "&"
-basedrum += "&"
+basedrum += "&&"
 basedrum += "+-b+b+b-"
 basedrum += "&"
 basedrum += "b&"
@@ -203,3 +197,5 @@ basedrum += "*-b-d#-b-"
 basedrum += "b&"
 basedrum += "b+-b+-b+"
 basedrum += "-b-b-b-b-d#-c#-b-"
+# 20
+basedrum += "b*-b+-"

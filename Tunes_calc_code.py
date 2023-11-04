@@ -8,7 +8,6 @@ pause_amount = {
     "pause+": 8,
     "pause*": 16,
     "pause&": 32,
-    "pause^": 64,
 }
 
 freqs = []
