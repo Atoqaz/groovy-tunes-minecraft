@@ -1,24 +1,23 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 12 19:05:17 2023
-
-@author: AKris
-"""
-from Tunes_calc_code import *
+from tunes_calc_code import *
 from pathlib import Path
 import os
 
 DIR = Path(__file__).parent
 
-to_datapack = 0
-melody = "amtet"
-saves_folder = "TestyTown"
+to_datapack = 1
+debug = True
+tact_number = 32
+melody = "pokemon"
+# saves_folder = "TestyTown"
+saves_folder = "pokemon_theme"
 datapack_name = "groovy tunes"
 
 if melody == "ghostbusters":
     from melodies.ghostbusters import *
 elif melody == "amtet":
     from melodies.amtet import *
+elif melody == "pokemon":
+    from melodies.pokemon import *
 
 if to_datapack:
     location = Path(os.getenv("APPDATA")).joinpath(
@@ -37,6 +36,7 @@ notes_instruments = [
     (chime, "chime"),
     (bit, "bit"),
     (xylophone, "xylophone"),
+    (iron_xylophone, "iron_xylophone"),
     (banjo, "banjo"),
     (guitar, "guitar"),
     (bass, "bass"),
@@ -56,14 +56,18 @@ for notes_instrument in notes_instruments:
         new_code, new_tact = convert_notes_to_code(notes, instrument, tact)
         code += new_code
         max_tact = max(max_tact, new_tact)
-        # tact = convert[1]
 
 
-code += "\nexecute if score @s tunes.tact matches "
-code += str(max_tact)
-code += ".. run function tunes:reset"
+if debug:
+    for interval in range(int(max_tact / tact_number)):
+        code += f"""\nexecute if score @s tunes.tact matches {interval*tact_number} run tellraw @a "Row: {interval+1} - Tact: {interval*tact_number} " """
+
+code += (
+    f"\nexecute if score @s tunes.tact matches {max_tact}.. run function tunes:reset"
+)
+
 
 with open(location, "w+") as text_file:
     text_file.write(code)
 
-print(f"Created song: {melody.capitalize()}")
+    print(f"Created song: {melody.capitalize()}")

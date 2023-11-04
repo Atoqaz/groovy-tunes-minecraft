@@ -3,10 +3,10 @@
     "title": "Exandreal",
     "description": "",
     "icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:{Id:[I;0,0,0,0],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE5ODBkNDI5MDgwMGQxYTVlZjE1ZDkyNTM2ODFmZmZjMmEyZTZlOTJkYTMwN2U3ODRmM2I0OTZlOTkwNjA3ZiJ9fX0='}]}}}"
-		},
-	"background": "minecraft:textures/block/black_concrete_powder.png",
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;0,0,0,0],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE5ODBkNDI5MDgwMGQxYTVlZjE1ZDkyNTM2ODFmZmZjMmEyZTZlOTJkYTMwN2U3ODRmM2I0OTZlOTkwNjA3ZiJ9fX0='}]}}}"
+    },
+    "background": "minecraft:textures/block/black_concrete_powder.png",
     "show_toast": false,
     "announce_to_chat": false
   },
