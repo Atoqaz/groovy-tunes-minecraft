@@ -50,6 +50,9 @@ iron_xylophone += "-D#-D#-D#-D#+-F-"
 iron_xylophone += "D+C-A#*A#-"
 iron_xylophone += "D+D-C+A#-D+"
 iron_xylophone += "&"
+# 20
+iron_xylophone += "&&&&&"
+# 25
 
 # Packed ice
 chime += "&&&&&"
@@ -60,6 +63,12 @@ chime += "&&&&"
 chime += "*-d-f-G-"
 # 20
 chime += "+d-d-f-G+G-"
+chime += "-f*+-"
+chime += "&"
+chime += "*-F-f-G-"
+chime += "&"
+# 25
+
 
 # Gold block
 bell += "&&&&&"
@@ -68,6 +77,11 @@ bell += "&&&&&"
 bell += "&&&&&"
 # 20
 bell += "*+-G-"
+bell += "f-+a#*-"
+bell += "+-G-G-A-A#-A-"
+bell += "-G+f*-"
+bell += "+G*-G-"
+# 25
 
 
 # Wool block
@@ -96,6 +110,11 @@ guitar += "a#+-c+-d+"
 guitar += "*-d-f-G-"
 # 20
 guitar += "d#-d#-d#-d#-d#-d#-d#-d#-"
+guitar += "a#-a#-a#-a#-a#-a#-a#-a#-"
+guitar += "d#-d#-d#-d#-d#-d#-d#-d#-"
+guitar += "f-f-f-f-f-f-f-f-"
+guitar += "G-G-G-G-G-G-G-G-"
+# 25
 
 # Wood
 bass += "&&&"
@@ -121,6 +140,11 @@ bass += "a#+-c+-d+"
 bass += "*-d-f-G-"
 # 20
 bass += "d#+-d#+d#+-"
+bass += "a#+-a#-a#-a#+-"
+bass += "d#+-d#+d#+-"
+bass += "f+-f+f+-"
+bass += "G+-G+G+-"
+# 25
 
 # Diamond
 harp += "GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-"
@@ -148,6 +172,11 @@ harp += "fA#D-fA#D-fA#D-GCD-GCD-GCD-fAD+"
 harp += "-fGD-fGD-fGD-Adf#+Adf#+"
 # 20
 harp += "GA#D#+-GA#D#+GA#D#+-"
+harp += "fA#D+-fA#D-fA#D-fA#D+-"
+harp += "GA#D#+-GA#D#+GA#D#+-"
+harp += "ACF+-ACF+ACF+-"
+harp += "A#GD+-A#GD+A#GD+-"
+# 25
 
 # Sand
 snare += "&&"
@@ -164,7 +193,7 @@ snare += "F#-F#-F#-F#d#-F#-F#b-F#-F#-"
 snare += "F#c#-F#-F#-F#f#-F#-F#b-F#d#-F#-"
 snare += "F#-F#-F#-F#-F#--F#b-F#G-"
 snare += "F#-F#-F#b-F#-F#-F#-F#-F#-"
-snare += "F#-F#-F#b-F#-F#-F#a-F#-F#a-"
+snare += "F#-F#-F#b-F#-F#-F#A-F#-F#A-"
 snare += "F#-F#-F#b-F#-F#-F#-F#-F#-"
 # 15
 snare += "F#-F#-F#b-F#d#-F#-F#b-F#-F#-"
@@ -174,6 +203,11 @@ snare += "F#c#-F#-F#-F#f#-F#-F#-F#d#-F#-"
 snare += "&"
 # 20
 snare += "f#F#.F#.F#.F#.bF#.F#.F#.F#.F#.F#.F#.F#.bF#.F#.F#.F#."
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#b.F#b."
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
+# 25
 
 # Stone
 basedrum += "&&"
@@ -199,3 +233,10 @@ basedrum += "b+-b+-b+"
 basedrum += "-b-b-b-b-d#-c#-b-"
 # 20
 basedrum += "b*-b+-"
+basedrum += "b*b-b+-"
+basedrum += "b*b-b+-"
+basedrum += "b+-b-b-b+-"
+basedrum += "b+-b-b-b+b-"
+# 25
+
+# end of file

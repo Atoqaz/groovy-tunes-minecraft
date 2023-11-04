@@ -5,7 +5,7 @@ from pathlib import Path
 DIR = Path(__file__).parent
 
 melody = "pokemon"
-
+tact_number = 32
 
 pause_amount = {x[5:]: y for x, y in pause_amount.items()}
 
@@ -24,5 +24,5 @@ with open(DIR.joinpath(f"melodies\{melody}.py")) as filehandle:
     for index, line in enumerate(filehandle):
         if "+=" in line:
             sum = get_line_sum(line, pause_amount)
-            if (sum != 32) & (sum % 32 != 0):
+            if sum % tact_number != 0:
                 print(f"{index+1}: Line {line[:-1]} contains {sum} tacts")

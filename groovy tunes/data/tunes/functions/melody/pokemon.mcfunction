@@ -477,8 +477,58 @@ execute if score @s tunes.tact matches 653 run playsound minecraft:block.note_bl
 execute if score @s tunes.tact matches 661 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.059463
 execute if score @s tunes.tact matches 661 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
 execute if score @s tunes.tact matches 661 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.681793
+execute if score @s tunes.tact matches 673 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 673 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 673 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.587401
+execute if score @s tunes.tact matches 685 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 685 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 685 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.587401
+execute if score @s tunes.tact matches 689 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 689 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 689 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.587401
+execute if score @s tunes.tact matches 693 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 693 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 693 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.587401
+execute if score @s tunes.tact matches 705 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 705 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 705 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.681793
+execute if score @s tunes.tact matches 717 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 717 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 717 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.681793
+execute if score @s tunes.tact matches 725 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 725 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 725 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.681793
+execute if score @s tunes.tact matches 737 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.189207
+execute if score @s tunes.tact matches 737 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.414214
+execute if score @s tunes.tact matches 737 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.887749
+execute if score @s tunes.tact matches 749 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.189207
+execute if score @s tunes.tact matches 749 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.414214
+execute if score @s tunes.tact matches 749 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.887749
+execute if score @s tunes.tact matches 757 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.189207
+execute if score @s tunes.tact matches 757 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.414214
+execute if score @s tunes.tact matches 757 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.887749
+execute if score @s tunes.tact matches 769 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 769 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 769 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.587401
+execute if score @s tunes.tact matches 781 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 781 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 781 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.587401
+execute if score @s tunes.tact matches 789 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 789 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 789 run playsound minecraft:block.note_block.harp record @a[distance=..128] ~ ~ ~ 8 1.587401
 
 execute if score @s tunes.tact matches 669 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 673 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 685 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 717 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 721 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 725 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 1.189207
+execute if score @s tunes.tact matches 729 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 1.259921
+execute if score @s tunes.tact matches 733 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 1.189207
+execute if score @s tunes.tact matches 741 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 749 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 777 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 797 run playsound minecraft:block.note_block.bell record @a[distance=..128] ~ ~ ~ 8 1.059463
 
 execute if score @s tunes.tact matches 629 run playsound minecraft:block.note_block.chime record @a[distance=..128] ~ ~ ~ 8 0.793701
 execute if score @s tunes.tact matches 633 run playsound minecraft:block.note_block.chime record @a[distance=..128] ~ ~ ~ 8 0.943874
@@ -488,6 +538,10 @@ execute if score @s tunes.tact matches 653 run playsound minecraft:block.note_bl
 execute if score @s tunes.tact matches 657 run playsound minecraft:block.note_block.chime record @a[distance=..128] ~ ~ ~ 8 0.943874
 execute if score @s tunes.tact matches 661 run playsound minecraft:block.note_block.chime record @a[distance=..128] ~ ~ ~ 8 1.059463
 execute if score @s tunes.tact matches 669 run playsound minecraft:block.note_block.chime record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 677 run playsound minecraft:block.note_block.chime record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 757 run playsound minecraft:block.note_block.chime record @a[distance=..128] ~ ~ ~ 8 1.887749
+execute if score @s tunes.tact matches 761 run playsound minecraft:block.note_block.chime record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 765 run playsound minecraft:block.note_block.chime record @a[distance=..128] ~ ~ ~ 8 1.059463
 
 execute if score @s tunes.tact matches 133 run playsound minecraft:block.note_block.iron_xylophone record @a[distance=..128] ~ ~ ~ 8 1.587401
 execute if score @s tunes.tact matches 137 run playsound minecraft:block.note_block.iron_xylophone record @a[distance=..128] ~ ~ ~ 8 1.587401
@@ -595,6 +649,38 @@ execute if score @s tunes.tact matches 657 run playsound minecraft:block.note_bl
 execute if score @s tunes.tact matches 661 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
 execute if score @s tunes.tact matches 665 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
 execute if score @s tunes.tact matches 669 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 673 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 677 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 681 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 685 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 689 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 693 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 697 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 701 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 705 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 709 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 713 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 717 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 721 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 725 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 729 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 733 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 737 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 741 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 745 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 749 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 753 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 757 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 761 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 765 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 769 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 773 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 777 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 781 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 785 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 789 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 793 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 797 run playsound minecraft:block.note_block.guitar record @a[distance=..128] ~ ~ ~ 8 1.059463
 
 execute if score @s tunes.tact matches 117 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.793701
 execute if score @s tunes.tact matches 121 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.943874
@@ -630,6 +716,19 @@ execute if score @s tunes.tact matches 637 run playsound minecraft:block.note_bl
 execute if score @s tunes.tact matches 641 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.840896
 execute if score @s tunes.tact matches 653 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.840896
 execute if score @s tunes.tact matches 661 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 673 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 685 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 689 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 693 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.629961
+execute if score @s tunes.tact matches 705 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 717 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 725 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.840896
+execute if score @s tunes.tact matches 737 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 749 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 757 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 0.943874
+execute if score @s tunes.tact matches 769 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 781 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 1.059463
+execute if score @s tunes.tact matches 789 run playsound minecraft:block.note_block.bass record @a[distance=..128] ~ ~ ~ 8 1.059463
 
 execute if score @s tunes.tact matches 73 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
 execute if score @s tunes.tact matches 75 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
@@ -730,10 +829,10 @@ execute if score @s tunes.tact matches 425 run playsound minecraft:block.note_bl
 execute if score @s tunes.tact matches 429 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
 execute if score @s tunes.tact matches 433 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
 execute if score @s tunes.tact matches 437 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
-execute if score @s tunes.tact matches 437 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.594604
+execute if score @s tunes.tact matches 437 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 1.189207
 execute if score @s tunes.tact matches 441 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
 execute if score @s tunes.tact matches 445 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
-execute if score @s tunes.tact matches 445 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.594604
+execute if score @s tunes.tact matches 445 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 1.189207
 execute if score @s tunes.tact matches 449 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
 execute if score @s tunes.tact matches 453 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
 execute if score @s tunes.tact matches 457 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
@@ -807,6 +906,80 @@ execute if score @s tunes.tact matches 665 run playsound minecraft:block.note_bl
 execute if score @s tunes.tact matches 667 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
 execute if score @s tunes.tact matches 669 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
 execute if score @s tunes.tact matches 671 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 673 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 675 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 677 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 679 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 681 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 681 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 683 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 685 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 687 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 689 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 691 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 693 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 695 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 697 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 697 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 699 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 701 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 703 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 705 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 707 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 709 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 711 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 713 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 713 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 715 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 717 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 719 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 721 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 723 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 725 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 727 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 729 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 729 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 731 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 733 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 735 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 737 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 739 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 741 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 743 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 745 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 745 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 747 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 749 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 751 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 753 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 755 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 757 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 759 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 761 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 761 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 763 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 765 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 765 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 767 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 767 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 769 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 771 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 773 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 775 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 777 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 777 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 779 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 781 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 783 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 785 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 787 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 789 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 791 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 793 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 793 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 795 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 797 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
+execute if score @s tunes.tact matches 799 run playsound minecraft:block.note_block.snare record @a[distance=..128] ~ ~ ~ 8 2.0
 
 execute if score @s tunes.tact matches 85 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.840896
 execute if score @s tunes.tact matches 89 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.749154
@@ -852,6 +1025,21 @@ execute if score @s tunes.tact matches 633 run playsound minecraft:block.note_bl
 execute if score @s tunes.tact matches 637 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
 execute if score @s tunes.tact matches 641 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
 execute if score @s tunes.tact matches 661 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 673 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 689 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 693 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 705 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 721 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 725 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 737 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 749 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 753 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 757 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 769 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 781 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 785 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 789 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
+execute if score @s tunes.tact matches 797 run playsound minecraft:block.note_block.basedrum record @a[distance=..128] ~ ~ ~ 8 0.66742
 
 
 execute if score @s tunes.tact matches 0 run tellraw @a "Row: 1 - Tact: 0 " 
@@ -875,4 +1063,8 @@ execute if score @s tunes.tact matches 544 run tellraw @a "Row: 18 - Tact: 544 "
 execute if score @s tunes.tact matches 576 run tellraw @a "Row: 19 - Tact: 576 " 
 execute if score @s tunes.tact matches 608 run tellraw @a "Row: 20 - Tact: 608 " 
 execute if score @s tunes.tact matches 640 run tellraw @a "Row: 21 - Tact: 640 " 
-execute if score @s tunes.tact matches 673.. run function tunes:reset
+execute if score @s tunes.tact matches 672 run tellraw @a "Row: 22 - Tact: 672 " 
+execute if score @s tunes.tact matches 704 run tellraw @a "Row: 23 - Tact: 704 " 
+execute if score @s tunes.tact matches 736 run tellraw @a "Row: 24 - Tact: 736 " 
+execute if score @s tunes.tact matches 768 run tellraw @a "Row: 25 - Tact: 768 " 
+execute if score @s tunes.tact matches 801.. run function tunes:reset
