@@ -1,28 +1,36 @@
 # -*- coding: utf-8 -*-
+"""
+Created on Sat Oct 14 13:15:51 2023
 
+@author: AKris
+"""
 pause_amount = {
-    "pause,": 1,
-    "pause.": 2,
-    "pause;": 3,
-    "pause-": 4,
-    "pause+": 8,
-    "pause*": 16,
-    "pause&": 32,
+    "pause:,": 1,
+    "pause:.": 2,
+    "pause:;": 3,
+    "pause:-": 4,
+    "pause:+": 8,
+    "pause:*": 16,
+    "pause:&": 32,
 }
 
-freqs = []
-for i in range(0, 25):
-    freqs.append(str(round((2 ** (i / 12.0)) / 2, 6)))
-
 note_logic = {
-    ",": "pause,",
-    ".": "pause.",
-    ";": "pause;",
-    "-": "pause-",
-    "+": "pause+",
-    "*": "pause*",
-    "^": "pause^",
-    "&": "pause&",
+    "1": "scale:1",
+    "2": "scale:2",
+    "3": "scale:3",
+    "4": "scale:4",
+    "5": "scale:5",
+    "6": "scale:6",
+    "7": "scale:7",
+    "8": "scale:8",
+    "9": "scale:9",
+    ",": "pause:,",
+    ".": "pause:.",
+    ";": "pause:;",
+    "-": "pause:-",
+    "=": "pause:=",
+    "*": "pause:*",
+    "&": "pause:&",
     " ": "section",
     "#f": freqs[0],
     "g#": freqs[2],
@@ -51,9 +59,15 @@ note_logic = {
     "F": freqs[23],
 }
 
+freqs = []
+for i in range(0, 25):
+    freqs.append(str(round((2 ** (i / 12.0)) / 2, 6)))
 
 def convert_notes_to_code(string, instrument, tact):
+
     code = ""
+
+    scale = 3
 
     notes = []
     while True:
@@ -72,9 +86,11 @@ def convert_notes_to_code(string, instrument, tact):
 
     for freq in notes:
         if freq in pause_amount:
-            tact += pause_amount[freq]
+            tact += pause_amount[freq]*scale
         elif freq == "section":
             code += "\n"
+        elif freq[0:5] == "scale":
+            scale = int(freq[6])
         else:
             code += f"""execute if score @s tunes.tact matches {tact} run playsound minecraft:block.note_block.{instrument} record @a[distance=..128] ~ ~ ~ 8 {freq}\n"""
 

@@ -8,7 +8,7 @@ xylophone = ""  # Bone
 iron_xylophone = ""  # Iron block
 banjo = ""  # Hay bale
 guitar = ""  # Wool
-bass = ""  # Planks
+bass = ""  # Wood
 didgeridoo = ""  # Pumpkin
 hat = ""  # Glass
 snare = ""  # Sand
@@ -162,7 +162,7 @@ guitar += "*-d-f-G-"
 guitar += "d#+-f*-"
 # guitar += "G&"
 
-# Planks
+# Wood
 bass += "&&&"
 bass += "*-d-f-G-"
 bass += "&"

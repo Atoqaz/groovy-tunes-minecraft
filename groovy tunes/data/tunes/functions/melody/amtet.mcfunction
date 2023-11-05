@@ -1,4 +1,4 @@
-particle note ~ ~ ~ 1 1 1 1 1 normal @a
+execute if predicate tunes:rand25 run particle note ~ ~ ~ 1 1 1 1 1 normal @a
 
 execute if score @s tunes.tact matches 193 run playsound minecraft:block.note_block.pling record @a[distance=..128] ~ ~ ~ 8 1.33484
 execute if score @s tunes.tact matches 202 run playsound minecraft:block.note_block.pling record @a[distance=..128] ~ ~ ~ 8 1.189207
