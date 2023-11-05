@@ -13,7 +13,7 @@ DIR = Path(__file__).parent
 to_datapack = 1
 debug = False
 tact_number = 32
-melody = "all_i_want"
+melody = "pokemon"
 saves_folder = "TestyTown"
 datapack_name = "groovy tunes"
 

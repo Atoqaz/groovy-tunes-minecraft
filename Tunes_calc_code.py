@@ -14,6 +14,10 @@ pause_amount = {
     "pause:&": 32,
 }
 
+freqs = []
+for i in range(0, 25):
+    freqs.append(str(round((2 ** (i / 12.0)) / 2, 6)))
+
 note_logic = {
     "1": "scale:1",
     "2": "scale:2",
@@ -28,7 +32,7 @@ note_logic = {
     ".": "pause:.",
     ";": "pause:;",
     "-": "pause:-",
-    "=": "pause:=",
+    "+": "pause:+",
     "*": "pause:*",
     "&": "pause:&",
     " ": "section",
@@ -58,10 +62,6 @@ note_logic = {
     "F#": freqs[24],
     "F": freqs[23],
 }
-
-freqs = []
-for i in range(0, 25):
-    freqs.append(str(round((2 ** (i / 12.0)) / 2, 6)))
 
 def convert_notes_to_code(string, instrument, tact):
 
