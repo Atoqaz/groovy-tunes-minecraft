@@ -77,12 +77,6 @@ def convert_notes_to_code(string, instrument, tact):
             code += "\n"
         else:
             code += f"""execute if score @s tunes.tact matches {tact} run playsound minecraft:block.note_block.{instrument} record @a[distance=..128] ~ ~ ~ 8 {freq}\n"""
-            # code += str(tact)
-            # code += " run playsound minecraft:block.note_block."
-            # code += instrument
-            # code += " record @a[distance=..128] ~ ~ ~ 8 "
-            # code += freq
-            # code += "\n"
 
     code += "\n"
 

@@ -24,5 +24,6 @@ with open(DIR.joinpath(f"melodies\{melody}.py")) as filehandle:
     for index, line in enumerate(filehandle):
         if "+=" in line:
             sum = get_line_sum(line, pause_amount)
-            if sum % tact_number != 0:
+            if (sum % tact_number != 0) | (sum == 0):
                 print(f"{index+1}: Line {line[:-1]} contains {sum} tacts")
+

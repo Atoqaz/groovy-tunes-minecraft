@@ -4,10 +4,10 @@ import os
 
 DIR = Path(__file__).parent
 
-to_datapack = 1
-debug = True
+to_datapack = 0
+debug = False
 tact_number = 32
-melody = "pokemon"
+melody = "ghostbusters"
 # saves_folder = "TestyTown"
 saves_folder = "pokemon_theme"
 datapack_name = "groovy tunes"
