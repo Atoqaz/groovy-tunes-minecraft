@@ -52,7 +52,11 @@ iron_xylophone += "D+D-C+A#-D+"
 iron_xylophone += "&"
 # 20
 iron_xylophone += "&&&&&"
-# 25
+iron_xylophone += "&&&&&"
+iron_xylophone += "&&&&&"
+# 35
+iron_xylophone += "&"
+# iron_xylophone += "&"
 
 # Packed ice
 chime += "&&&&&"
@@ -68,6 +72,19 @@ chime += "&"
 chime += "*-F-f-G-"
 chime += "&"
 # 25
+chime += "&&"
+chime += "*-d-f-G-"
+chime += "+d-d-f-G+-"
+chime += "-f*+-"
+# 30
+chime += "&&"
+chime += "d#&"
+chime += "f&"
+chime += "A#+-A#+-A+"
+# 35
+chime += "+d-d-f-G+G-"
+chime += "&"
+# chime += "&"
 
 
 # Gold block
@@ -82,7 +99,21 @@ bell += "+-G-G-A-A#-A-"
 bell += "-G+f*-"
 bell += "+G*-G-"
 # 25
-
+bell += "f-d+a#+-a#-c-"
+bell += "d+d-c+a#-d+"
+bell += "&"
+bell += "*+-G-"
+bell += "f-G+G+-f+"
+# 30
+bell += "+-G-G-A-A#-A-"
+bell += "-G+f*-"
+bell += "d#-A#+A#+A#+f-"
+bell += "-A#+A#*-"
+bell += "A#+-A#+-A+"
+# 35
+bell += "&"
+bell += "+d-d-f-G+A#-"
+# bell += "-G*+-"
 
 # Wool block
 guitar += "G+G+G+G+"
@@ -115,6 +146,21 @@ guitar += "d#-d#-d#-d#-d#-d#-d#-d#-"
 guitar += "f-f-f-f-f-f-f-f-"
 guitar += "G-G-G-G-G-G-G-G-"
 # 25
+guitar += "A-A-A-A-A-A-A-A-"
+guitar += "a#+-c+-d+"
+guitar += "*-d-f-G-"
+guitar += "d#-d#-d#-d#-d#-d#-d#-d#-"
+guitar += "f-f-f-f-f-f-f-f-"
+# 30
+guitar += "G-G-G-G-G-G-G-G-"
+guitar += "A-A-A-A-A-A-A-A-"
+guitar += "c-c-c-c-c-c-c-c-"
+guitar += "d-d-d-d-d-d-d-d-"
+guitar += "a#+-c+-d+"
+# 35
+guitar += "*-d-f-G-"
+guitar += "d#+-f*-"
+# guitar += "G&"
 
 # Wood
 bass += "&&&"
@@ -145,6 +191,21 @@ bass += "d#+-d#+d#+-"
 bass += "f+-f+f+-"
 bass += "G+-G+G+-"
 # 25
+bass += "A+-A+A+-"
+bass += "a#+-c+-d+"
+bass += "*-d-f-G-"
+bass += "d#+-d#+f+-"
+bass += "f+-f+f+-"
+# 30
+bass += "G+-G+G+-"
+bass += "A+-A+A+-"
+bass += "c+-c+c+-"
+bass += "d+-d+d+-"
+bass += "a#+-c+-d+"
+# 35
+bass += "*-d-f-G-"
+bass += "d#+-f*-"
+# bass += "G&"
 
 # Diamond
 harp += "GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-"
@@ -177,6 +238,21 @@ harp += "GA#D#+-GA#D#+GA#D#+-"
 harp += "ACF+-ACF+ACF+-"
 harp += "A#GD+-A#GD+A#GD+-"
 # 25
+harp += "ACF+-ACF+ACF+-"
+harp += "fA#D+-GCD+-fA#D+"
+harp += "-fGD+-df#A*"
+harp += "GA#D#*-GA#D#+-"
+harp += "ACF+-ACF+-ACF+"
+# 30
+harp += "GA#D#+-GA#D#+GA#D#+-"
+harp += "ACF+-ACF+ACF+-"
+harp += "GCD#+-GCD#-GCD#-GCD#+-"
+harp += "ADF+-ADF-ADF-ADF+-"
+harp += "fA#D+-GCD+-fAD+"
+# 35
+harp += "*dAf#*"
+harp += "fA#D+-GCD*-"
+# harp += "GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-"
 
 # Sand
 snare += "&&"
@@ -208,6 +284,21 @@ snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
 snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#b.F#b."
 snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
 # 25
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
+snare += "F#c#.F#.F#.F#.F#b.F#.F#f#.F#.F#.F#.F#.F#.F#d#.F#.F#.F#."
+snare += "F#.F#.F#.F#.F#.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#f#.F#."
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
+# 30
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
+snare += "F#.F#.F#.F#.F#b.F#.F#.F#.F#.F#.F#.F#.F#b.F#.F#.F#."
+snare += "F#c#.F#.F#.F#.F#b.F#.F#f#.F#.F#.F#.F#.F#.F#d#.F#.F#.F#."
+# 35
+snare += "F#.F#.F#.F#.F#.F#.F#.F#.F#.F#.F#.F#.F#.F#.F#.F#."
+snare += "F#c#.F#.b.F#b.bb.F#.F#f#.F#.F#.F#.F#.F#.F#.F#.F#.F#."
+# snare += "F#b&"
 
 # Stone
 basedrum += "&&"
@@ -238,5 +329,20 @@ basedrum += "b*b-b+-"
 basedrum += "b+-b-b-b+-"
 basedrum += "b+-b-b-b+b-"
 # 25
+basedrum += "b*b-b+-"
+basedrum += "b+-b+b-b+"
+basedrum += "+f#+d#-c#+b-"
+basedrum += "b*b-b+-"
+basedrum += "b*b-b+-"
+# 30
+basedrum += "b*b-b+-"
+basedrum += "b*b-b+-"
+basedrum += "b*b-b+-"
+basedrum += "b*b-b+-"
+basedrum += "b+-b+b-b+"
+# 35
+basedrum += "-f#-f#-f#-f#-d#-c#-b-"
+basedrum += "b-.b-.b+-d#.d#.b.b."
+# basedrum += "b&"
 
 # end of file
