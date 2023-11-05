@@ -13,7 +13,7 @@ DIR = Path(__file__).parent
 to_datapack = 1
 debug = False
 tact_number = 32
-melody = "pokemon"
+melody = "last_christmas"
 saves_folder = "TestyTown"
 datapack_name = "groovy tunes"
 
@@ -21,10 +21,12 @@ if melody == "ghostbusters":
     from melodies.ghostbusters import *
 elif melody == "amtet":
     from melodies.amtet import *
-elif melody == "all_i_want":
-    from melodies.all_i_want import *
 elif melody == "pokemon":
     from melodies.pokemon import *
+elif melody == "all_i_want":
+    from melodies.all_i_want import *
+elif melody == "last_christmas":
+    from melodies.last_christmas import *
 
 if to_datapack:
     location = Path(os.getenv("APPDATA")).joinpath(
