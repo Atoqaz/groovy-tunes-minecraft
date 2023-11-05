@@ -63,10 +63,10 @@ note_logic = {
     "F": freqs[23],
 }
 
+
 def convert_notes_to_code(string, instrument, tact):
 
     code = ""
-
     scale = 3
 
     notes = []
@@ -86,7 +86,7 @@ def convert_notes_to_code(string, instrument, tact):
 
     for freq in notes:
         if freq in pause_amount:
-            tact += pause_amount[freq]*scale
+            tact += pause_amount[freq] * scale
         elif freq == "section":
             code += "\n"
         elif freq[0:5] == "scale":

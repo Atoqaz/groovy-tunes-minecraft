@@ -54,7 +54,9 @@ notes_instruments = [
     (basedrum, "basedrum"),
 ]
 
-code = "execute if predicate tunes:rand25 run particle note ~ ~ ~ 1 1 1 1 1 normal @a\n\n"
+code = (
+    "execute if predicate tunes:rand25 run particle note ~ ~ ~ 1 1 1 1 1 normal @a\n\n"
+)
 
 tact = 1
 max_tact = 1
@@ -76,5 +78,5 @@ code += (
 
 with open(location, "w+") as text_file:
     text_file.write(code)
-    
+
     print(f"Created song: {melody.capitalize()}")

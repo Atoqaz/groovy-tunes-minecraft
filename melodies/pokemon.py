@@ -30,7 +30,7 @@ cow_bell = ""  # Soul sand
 # 32 tick per row
 
 # Iron block
-iron_xylophone += "&&&&"
+iron_xylophone += "1&&&&"
 iron_xylophone += "-D-D-D-D+-D-"
 # 5
 iron_xylophone += "C+A-f*f-"
@@ -59,7 +59,7 @@ iron_xylophone += "&"
 # iron_xylophone += "&"
 
 # Packed ice
-chime += "&&&&&"
+chime += "1&&&&&"
 chime += "&&&&&"
 chime += "&&&&&"
 # 15
@@ -88,7 +88,7 @@ chime += "&"
 
 
 # Gold block
-bell += "&&&&&"
+bell += "1&&&&&"
 bell += "&&&&&"
 bell += "&&&&&"
 bell += "&&&&&"
@@ -116,7 +116,7 @@ bell += "+d-d-f-G+A#-"
 # bell += "-G*+-"
 
 # Wool block
-guitar += "G+G+G+G+"
+guitar += "1G+G+G+G+"
 guitar += "G+G+G+G+"
 guitar += "G+G+G+G+"
 guitar += "*-d-f-G-"
@@ -163,7 +163,7 @@ guitar += "d#+-f*-"
 # guitar += "G&"
 
 # Wood
-bass += "&&&"
+bass += "1&&&"
 bass += "*-d-f-G-"
 bass += "&"
 # 5
@@ -208,7 +208,7 @@ bass += "d#+-f*-"
 # bass += "G&"
 
 # Diamond
-harp += "GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-"
+harp += "1GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-"
 harp += "fAD-fAD-fAD-fAD-fAD-fAD-fAD-fAD-"
 harp += "GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-fAD-"
 harp += "fAD-fAD-fAD-fAD-fAD-fAD-fAD-GA#D-"
@@ -255,7 +255,7 @@ harp += "fA#D+-GCD*-"
 # harp += "GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-GA#D-"
 
 # Sand
-snare += "&&"
+snare += "1&&"
 snare += "+b.b.b.b.b++"
 snare += "*-b.b.b-f#-"
 snare += "F#-F#-F#-F#-F#-F#-F#-F#-"
@@ -301,7 +301,7 @@ snare += "F#c#.F#.b.F#b.bb.F#.F#f#.F#.F#.F#.F#.F#.F#.F#.F#.F#."
 # snare += "F#b&"
 
 # Stone
-basedrum += "&&"
+basedrum += "1&&"
 basedrum += "*-d#-c#-b-"
 basedrum += "-c#-c#-b-b*"
 basedrum += "&"
