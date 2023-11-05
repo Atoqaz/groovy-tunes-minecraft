@@ -4,12 +4,11 @@ import os
 
 DIR = Path(__file__).parent
 
-to_datapack = 0
+to_datapack = 1
 debug = False
 tact_number = 32
-melody = "ghostbusters"
-# saves_folder = "TestyTown"
-saves_folder = "pokemon_theme"
+melody = "pirate"
+saves_folder = "TestyTown"
 datapack_name = "groovy tunes"
 
 if melody == "ghostbusters":
@@ -19,14 +18,13 @@ elif melody == "amtet":
 elif melody == "pokemon":
     from melodies.pokemon import *
 
-if to_datapack:
-    location = Path(os.getenv("APPDATA")).joinpath(
-        f".minecraft/saves/{saves_folder}/datapacks/{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
-    )  # Datapack
-else:
-    location = DIR.joinpath(
-        f"{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
-    )  # Testing
+location_datapack = Path(os.getenv("APPDATA")).joinpath(
+    f".minecraft/saves/{saves_folder}/datapacks/{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
+)  # Datapack
+
+location_local = DIR.joinpath(
+    f"{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
+)  # Testing
 
 
 notes_instruments = [
@@ -66,6 +64,10 @@ code += (
     f"\nexecute if score @s tunes.tact matches {max_tact}.. run function tunes:reset"
 )
 
+if to_datapack:
+    location = location_datapack
+else:
+    location = location_local
 
 with open(location, "w+") as text_file:
     text_file.write(code)

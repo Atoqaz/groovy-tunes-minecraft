@@ -4,7 +4,7 @@ from pathlib import Path
 
 DIR = Path(__file__).parent
 
-melody = "pokemon"
+melody = "pirate"
 tact_number = 32
 
 pause_amount = {x[5:]: y for x, y in pause_amount.items()}
