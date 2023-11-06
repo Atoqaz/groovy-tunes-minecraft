@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 14 13:15:51 2023
 
-@author: AKris
-"""
 pause_amount = {
     "pause:,": 1,
     "pause:.": 2,
@@ -37,30 +33,30 @@ note_logic = {
     "&": "pause:&",
     " ": "section",
     "#f": freqs[0],
-    "g#": freqs[2],
     "g": freqs[1],
+    "g#": freqs[2],
     "a#": freqs[4],
     "a": freqs[3],
     "b": freqs[5],
-    "c#": freqs[7],
     "c": freqs[6],
-    "d#": freqs[9],
+    "c#": freqs[7],
     "d": freqs[8],
+    "d#": freqs[9],
     "e": freqs[10],
-    "f#": freqs[12],
     "f": freqs[11],
-    "G#": freqs[14],
+    "f#": freqs[12],
     "G": freqs[13],
-    "A#": freqs[16],
+    "G#": freqs[14],
     "A": freqs[15],
+    "A#": freqs[16],
     "B": freqs[17],
-    "C#": freqs[19],
     "C": freqs[18],
-    "D#": freqs[21],
+    "C#": freqs[19],
     "D": freqs[20],
+    "D#": freqs[21],
     "E": freqs[22],
-    "F#": freqs[24],
     "F": freqs[23],
+    "F#": freqs[24],
 }
 
 

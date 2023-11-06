@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 12 19:05:17 2023
-
-@author: AKris
-"""
 from Tunes_calc_code import *
 from pathlib import Path
 import os
@@ -13,7 +8,7 @@ DIR = Path(__file__).parent
 to_datapack = 1
 debug = False
 tact_number = 32
-melody = "last_christmas"
+melody = "jingle_bells"
 saves_folder = "TestyTown"
 datapack_name = "groovy tunes"
 
@@ -21,12 +16,14 @@ if melody == "ghostbusters":
     from melodies.ghostbusters import *
 elif melody == "amtet":
     from melodies.amtet import *
-elif melody == "pokemon":
-    from melodies.pokemon import *
 elif melody == "all_i_want":
     from melodies.all_i_want import *
+elif melody == "pokemon":
+    from melodies.pokemon import *
 elif melody == "last_christmas":
     from melodies.last_christmas import *
+elif melody == "jingle_bells":
+    from melodies.jingle_bells import *
 
 if to_datapack:
     location = Path(os.getenv("APPDATA")).joinpath(
