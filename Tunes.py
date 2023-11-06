@@ -20,6 +20,8 @@ elif melody == "all_i_want":
     from melodies.all_i_want import *
 elif melody == "pokemon":
     from melodies.pokemon import *
+elif melody == "last_christmas":
+    from melodies.last_christmas import *
 elif melody == "jingle_bells":
     from melodies.jingle_bells import *
 
