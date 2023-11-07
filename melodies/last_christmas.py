@@ -30,7 +30,7 @@ guitar += "eB*eB*"
 guitar += "ae*ae*"
 
 xylophone += "3f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#."
-snare += "3-f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#-"
+snare += "3-f#+f#+f#+f#+f#+f#+f#-.f#.f#.f#,f#,-f#+f#+f#+f#+f#+f#-.f#.,f#.,f#.,f#,f#.f#,f#,"
 basedrum += "3f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+"
 
 #---------------- chorus ----------------#
@@ -46,7 +46,7 @@ guitar += "eB+e+eB+e+"
 guitar += "ae+a+ae+a+"
 
 xylophone += "3f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#."
-snare += "3-f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#-"
+snare += "3-f#+f#+f#-.f#.f#+f#+f#+f#-.f#.,f#,.-f#+f#+f#-.f#.f#+f#+f#-.f#.,f#.,f#.,f#,f#.f#,f#,"
 basedrum += "3f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+"
 
 #---------------- middle ----------------#
@@ -62,7 +62,7 @@ guitar += "eE++eE++"
 guitar += "aA++aA++"
 
 xylophone += "3f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#."
-snare += "3-f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#-"
+snare += "3-f#+f#+f#-.f#.f#+f#+f#+f#-.f#.,f#,.-f#+f#+f#-.f#.f#+f#+f#-.f#.,f#.,f#.,f#,f#.f#,f#,"
 basedrum += "3f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+"
 
 #---------------- middle 2 ----------------#
@@ -78,7 +78,7 @@ guitar += "eB++eB++"
 guitar += "ae++ae++"
 
 xylophone += "3f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#."
-snare += "3-f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#-"
+snare += "3-f#+f#+f#-.f#.f#+f#+f#+f#-.f#.,f#,.-f#+f#+f#-.f#.f#+f#+f#-.f#.,f#.,f#.,f#,f#.f#,f#,"
 basedrum += "3f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+"
 
 #---------------- middle 3 ----------------#
@@ -94,7 +94,7 @@ guitar += "eB++eB++"
 guitar += "ae++ae++"
 
 xylophone += "3f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#."
-snare += "3-f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#-"
+snare += "3-f#+f#+f#-.f#.f#+f#+f#+f#-.f#.,f#,.-f#+f#+f#-.f#.f#+f#+f#-.f#.,f#.,f#.,f#,f#.f#,f#,"
 basedrum += "3f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+"
 
 #---------------- chorus ----------------#
@@ -110,5 +110,5 @@ guitar += "eB+e+eB+e+"
 guitar += "ae+a+ae++"
 
 xylophone += "3f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#.f#....."
-snare += "3-f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+-"
+snare += "3-f#+f#+f#-.f#.f#+f#+f#+f#-.f#.,f#,.-f#+f#+f#-.f#.f#+f#+f#-.f#.,f#.,f#.,f#,f#.f#,f#,"
 basedrum += "3f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#+f#++"
