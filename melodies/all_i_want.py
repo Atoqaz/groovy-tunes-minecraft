@@ -17,13 +17,11 @@ basedrum = ""
 ##############
 
 bell += "4g.b.d.f#.G.f#.d.b.g.c.d.G.G...a."
-bell += "3g;;b.d.f#.G;f#;e;d;;A;G.G.f#.G;f#;e;d;"
+bell += "3g;;b.d.f#.G;f#;e;d;;,A;G.G.f#.G.f#;e;d;"
 bell += ";c.e.G;A.B;A;G;e;;B.D.A;G.A;G;f;d#;"
-bell += "G;A;f#;G.e.f#;e.d#;;B;A.A;G;e.f#;e.d#;;"
+bell += "G;A;f#;G.e;f#.e.d#;;B;A.A;G;e.f#;e.d#;;"
 bell += ".d.e.G;D;C+-B;A;G;e;d#;A;;B;"
 bell += "G+-"
-bell += "bdG,bdG,bdG,bdG,bdG,bdG,bdG,bdG,bdG,bdG,bdG,bdG,beG,beG,beG,beG,beG,beG,beG,beG,beG,beG,beG,beG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,"
-bell += ".f#AD,f#AD.f#AD,f#AD.f#AD,f#AD;"
 
 harp += "4+e+c+d+"
 harp += "3GBD+++eBD+++"
@@ -32,10 +30,24 @@ harp += "dBD++.f#BD#-.eBD++.f#BD#-."
 harp += "dGB+-dG#C+-eGC+-d#GC+-"
 
 bass += "4&3&*&*&*&*&*"
+chime += "4&3&*&*&*&*&*"
+snare += "4&3&*&*&*&*&*"
+basedrum += "4&3&*&*&*&*&*"
 
 ##############
 
+bell += "bdG,bdG,bdG,bdG,bdG,bdG,bdG,bdG,bdG,bdG,bdG,bdG,beG,beG,beG,beG,beG,beG,beG,beG,beG,beG,beG,beG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,ceG,"
+bell += ".f#AD,f#AD.f#AD,f#AD.f#AD,f#AD;"
+chime += ".f#AD,f#AD.f#AD,f#AD.f#AD,f#AD;"
+
 bass += ".d,d.d,d.d,d;"
+
+#chime += "G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;"
+
+snare += ";;;;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;"
+basedrum += ";;;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;f#;;"
+
+##############
 
 bell += "g;b;d;bf#.bG;bf#;be;bd-bA;bG;bG.bf#;bG,"
 bell += ".bf#;e,bd;;"
@@ -50,6 +62,20 @@ bell += "bG;bA;bf#;bG.be;bf#;e,bd#;;"
 bell += "d;e;G.dD;cC,;;;;"
 bell += "bB;aA;gG;e;d#;aA;;bB;"
 bell += "bdG"
+
+chime += "g;b;d;bf#.bG;bf#;be;bd-bA;bG;bG.bf#;bG,"
+chime += ".bf#;e,bd;;"
+chime += "c;e;G;ceA.ceB;ceA;ceG;ce-"
+chime += "c;e.G-cd#A.cdA#;cdA;f,cd#;;"
+chime += "bA;bG.bG-bf#.bG;bf#;be;bd-"
+chime += "g;b.d;bf#;bG;bf#;be;bd-"
+chime += ";dD.cC,cC;bB.cC;bB;gG;e-"
+chime += "c;e.G;cd#A;cd#A#;cd#A;f,cd#;;"
+chime += "bG;bA;bf#;bG.be;bf#;e,bd#;;"
+chime += "bG;bA;bf#;bG.be;bf#;e,bd#;;"
+chime += "d;e;G.dD;cC,;;;;"
+chime += "bB;aA;gG;e;d#;aA;;bB;"
+chime += "bdG"
 
 bass += "G.G,D.D,G.G,D.D,G.G,D.D,G.G,D.D,G.G,D.D,G.G,D.D,"
 bass += "G.D,A.D,A#.D,B.D,"
