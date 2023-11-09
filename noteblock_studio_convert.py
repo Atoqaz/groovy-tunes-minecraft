@@ -59,10 +59,6 @@ def convert_pause_amount(pause_amount):
 
 
 def dataframe_to_encoded_notes(df, amount_pause):
-    df = df.fillna(amount_pause[1])
-    df = df.reindex(
-        list(range(df.index.min(), df.index.max() + 1)), fill_value=amount_pause[1]
-    )
 
     music_instruments = []
     for instrument in df.columns:
@@ -79,6 +75,15 @@ def save_music_instruments(filename, music_instruments):
             file_handle.write("\n")
 
 
+def insert_pauses(df, amount_pause):
+    df = df.astype(str) + amount_pause[1]
+    df = df.fillna(amount_pause[1])
+    df = df.reindex(
+        list(range(df.index.min(), df.index.max() + 1)), fill_value=amount_pause[1]
+    )
+    return df
+
+
 def main():
     note_files = get_note_files(DIR_NOTES)
 
@@ -90,11 +95,12 @@ def main():
 
     inv_frequencies = inverse_frequencies(note_logic)
     df = df.replace(inv_frequencies)  # Convert frequencies to letters
-    amount_pause = convert_pause_amount(pause_amount)
+    amount_pause = convert_pause_amount(pause_amount=pause_amount)
+    df = insert_pauses(df=df, amount_pause=amount_pause)
+    print(df)
     music_instruments = dataframe_to_encoded_notes(df, amount_pause)
 
     save_music_instruments(filename=DIR_NEW_FILE, music_instruments=music_instruments)
-    pass
 
 
 if __name__ == "__main__":

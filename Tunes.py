@@ -5,7 +5,6 @@ import os
 
 DIR = Path(__file__).parent
 
-to_datapack = 1
 debug = False
 tact_number = 32
 melody = "jingle_bells"
@@ -25,14 +24,13 @@ elif melody == "last_christmas":
 elif melody == "jingle_bells":
     from melodies.jingle_bells import *
 
-if to_datapack:
-    location = Path(os.getenv("APPDATA")).joinpath(
-        f".minecraft/saves/{saves_folder}/datapacks/{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
-    )  # Datapack
-else:
-    location = DIR.joinpath(
-        f"{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
-    )  # Testing
+location_datapack = Path(os.getenv("APPDATA")).joinpath(
+    f".minecraft/saves/{saves_folder}/datapacks/{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
+)  # Datapack
+
+location_local = DIR.joinpath(
+    f"{datapack_name}/data/tunes/functions/melody/{melody}.mcfunction"
+)  # Testing
 
 
 notes_instruments = [
@@ -75,7 +73,11 @@ code += (
     f"\nexecute if score @s tunes.tact matches {max_tact}.. run function tunes:reset"
 )
 
-with open(location, "w+") as text_file:
+with open(location_datapack, "w+") as text_file:
     text_file.write(code)
 
-    print(f"Created song: {melody.capitalize()}")
+
+with open(location_local, "w+") as text_file:
+    text_file.write(code)
+
+print(f"Created song: {melody.capitalize()}")
